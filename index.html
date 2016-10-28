@@ -6,7 +6,7 @@
       <link href="css/normalize.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="modal-overlay">
     <header class="main-header">
       <div class="container">
         <div class="main-logo">Device</div>
@@ -41,15 +41,15 @@
               <div class="inner-menu-block clearfix">
                   <div class="col left">
                     <a class="inner-item" href="#">Виртуальная реальность</a>
-                    <a class="inner-item" href="#">Фитнес-браслеты</a>
-                    <a class="inner-item" href="#">Квадрокоптеры</a>
+                    <a class="inner-item" href="inner-page.html">Моноподы для селфи</a>
+                    <a class="inner-item" href="#">Экшн-камеры</a>
                   </div>
                   <div class="col left">
-                    <a class="inner-item" href="inner-page.html">Моноподы для селфи</a>
+                    <a class="inner-item" href="inner-page.html"><span>Фитнесc</span><span>-браслеты</span></a>
                     <a class="inner-item" href="#">Умные часы</a>
                   </div>
                   <div class="col left">
-                    <a class="inner-item" href="#">Экшн-камеры</a>
+                    <a class="inner-item" href="#">Квадрокоптеры</a>
                   </div>
               </div>
             </div>
@@ -259,16 +259,16 @@
         <div class="popup-wrapper clearfix">
           <div class="left-column left">
             <label class="popup-title" for="name">Ваше имя:</label>
-            <input class="name" id="name" type="text" name="name" placeholder="Представтесь пожалуйста" required>
+            <input class="name" id="name" type="login" name="login" placeholder="Представтесь пожалуйста">
           </div>
           <div class="right-column right">
             <label class="popup-title" for="mail">Ваш e-mail:</label>
-            <input class="mail" id="mail" type="text" name="mail" placeholder="Для отправки ответа" required>
+            <input class="mail" id="mail" type="text" name="mail" placeholder="Для отправки ответа">
           </div>
         </div>
         <div class="popup-wrapper">
           <label class="popup-title" for="area">Текст письма</label>
-          <textarea class="popup-area" id="area" placeholder="В свободной форме" required></textarea>
+          <textarea class="popup-area" id="area" placeholder="В свободной форме" required=""></textarea>
         </div>
         <button class="popup-btn btn" type="submit">Отправить</button>
         <button class="popup-close" type="button"></button>
@@ -278,5 +278,6 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779967!2d37.52742931628238!3d55.68703098053583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1476470252774" width="960" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
       <button class="map-close" type="button"></button>
     </div>
+    <script src="js/popup.js"></script>
   </body>
 </html>
