@@ -2,9 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-      <title>Device</title>
-      <link href="css/normalize.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no">
+    <title>Device</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="modal-overlay">
     <header class="main-header">
@@ -12,7 +13,7 @@
         <div class="main-logo">Device</div>
         <div class="header-upper-menu clearfix">
           <div class="search-block left">
-            <form class="search-form clearfix">
+            <form class="search-form clearfix" action="echo.htmlacademy.ru" method="post">
               <label for="search"></label>
               <input class="search left" id="search" type="search" placeholder="Поиск по сайту" required>
               <button class="search-btn right" type="submit">Найти</button>
@@ -80,7 +81,7 @@
             <div class="right-column right">
               <div class="slider-title">Делай селфи,
 как Бен Стиллер! </div>
-               <p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине.
+               <p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине.<br>
 Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
                <a class="slider-link btn" href="#">Подробнее</a>
                <table class="characteristic">
@@ -147,7 +148,7 @@
           </div>
           <div class="promo-item">
             <div class="item-img"></div>
-            <a class="promo-link" href="#">Моноподы для селфи</a>
+            <a class="promo-link" href="inner-page.html">Моноподы для селфи</a>
           </div>
           <div class="promo-item">
             <div class="item-img"></div>
@@ -169,7 +170,7 @@
       </div>
       <div class="wrapper">
         <div class="services container clearfix">
-          <input class="servises-btn-1" id="servises-btn-1" type="radio" name="servises">
+          <input class="servises-btn-1" id="servises-btn-1" type="radio" name="servises" checked>
           <input class="servises-btn-2" id="servises-btn-2" type="radio" name="servises">
           <input class="servises-btn-3" id="servises-btn-3" type="radio" name="servises">
           <div class="services-btn-box left">
@@ -255,7 +256,7 @@
       </div>
     </footer>
     <div class="modal-popup">
-      <form class="modal-form">
+      <form class="modal-form" action="echo.htmlacademy.ru" method="post">
         <div class="popup-wrapper clearfix">
           <div class="left-column left">
             <label class="popup-title" for="name">Ваше имя:</label>
@@ -268,7 +269,7 @@
         </div>
         <div class="popup-wrapper">
           <label class="popup-title" for="area">Текст письма</label>
-          <textarea class="popup-area" id="area" placeholder="В свободной форме" required=""></textarea>
+          <textarea class="popup-area" id="area" placeholder="В свободной форме" required></textarea>
         </div>
         <button class="popup-btn btn" type="submit">Отправить</button>
         <button class="popup-close" type="button"></button>
