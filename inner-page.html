@@ -5,15 +5,17 @@
     <meta name="format-detection" content="telephone=no">
     <title>Device</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body class="modal-overlay">
     <header class="main-header inner-page">
       <div class="container">
-        <div class="main-logo"><a class="main-logo-link" href="index.html">Device</a></div>
+        <div class="main-logo">
+          <a class="main-logo-link" href="index.html">Device</a>
+        </div>
         <div class="header-upper-menu clearfix">
           <div class="search-block left">
-            <form class="search-form clearfix" action="echo.htmlacademy.ru" method="post">
+            <form class="search-form clearfix" action="echo.htmlacademy.ru" method="get">
               <label for="search"></label>
               <input class="search left" id="search" type="search" placeholder="Поиск по сайту" required>
               <button class="search-btn right" type="submit">Найти</button>
@@ -119,12 +121,12 @@
                 <span class="checkbox-indicator"></span>Белый
               </label>
               <label class="checkbox">
-                <input type="checkbox" name="blue">
-                <span class="checkbox-indicator" checked></span>Синий
+                <input type="checkbox" name="blue" checked>
+                <span class="checkbox-indicator"></span>Синий
               </label>
               <label class="checkbox">
-                <input type="checkbox" name="red">
-                <span class="checkbox-indicator" checked></span>Красный
+                <input type="checkbox" name="red" checked>
+                <span class="checkbox-indicator"></span>Красный
               </label>
               <label class="checkbox">
                 <input type="checkbox" name="pink">
@@ -142,7 +144,7 @@
                 <span class="radio-indicator"></span>Нет
               </label>
             </div>
-            <input class="filter-btn btn" type="submit" Value="Показать">
+            <input class="filter-btn btn" type="submit" value="Показать">
           </form>
           <div class="result-content">
             <div class="result-items clearfix">

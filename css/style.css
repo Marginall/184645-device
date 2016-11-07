@@ -1084,6 +1084,7 @@ label[for="search"] {
   height: 222px;
   margin-bottom: 68px;
   background: #e9e9e9 url("../img/map.jpg") no-repeat;
+  cursor: pointer;
 }
 
 .contacts .content-text {
@@ -1318,11 +1319,11 @@ label[for="search"] {
   width: 27px;
   height: 34px;
   background-color: #ffe27f;
-  background: url("../img/sprite.png") no-repeat -5px -168px;
+  background: #444 url("../img/sprite.png") no-repeat -5px -168px;
 }
 
 .copyright:hover {
-  background: url("../img/sprite.png") no-repeat -5px -129px;
+  background: #444 url("../img/sprite.png") no-repeat -5px -129px;
 }
 
 .copyright:active {
@@ -1575,6 +1576,7 @@ label[for="search"] {
   font-family: "Gilroy Light", "Arial", sans-serif;
   font-size: 14px;
   letter-spacing: 0;
+  background-color: transparent;
   border: none;
   outline: none;
 }
@@ -1608,6 +1610,7 @@ label[for="search"] {
   font-family: "OpenSans Light", "Arial", sans-serif;
   font-size: 14px;
   letter-spacing: 0.01em;
+  cursor: pointer;
 }
 
 .checkbox-indicator::before {
@@ -1995,7 +1998,7 @@ label[for="search"] {
   display: none;
   width: 960px;
   height: 560px;
-  background: url("../img/map-big.jpg") no-repeat;
+  background: #e9e9e9 url("../img/map-big.jpg") no-repeat;
   box-shadow: 0 10px 20px rgba(1, 2, 2, 0.2);
   z-index: 11;
 }
