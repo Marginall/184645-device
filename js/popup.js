@@ -11,6 +11,7 @@ var mail = popupForm.querySelector(".mail");
 
 mapLink.addEventListener("click", function(event) {
   event.preventDefault();
+  popup.classList.add("animated");
   popup.classList.add("modal-map-show");
   overlay.classList.add("modal-overlay-show");
 });
@@ -23,6 +24,7 @@ closeMap.addEventListener("click", function(event) {
 
 formLink.addEventListener("click", function(event) {
   event.preventDefault();
+  popupForm.classList.add("animated");
   popupForm.classList.add("modal-popup-show");
   overlay.classList.add("modal-overlay-show");
 });

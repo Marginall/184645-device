@@ -1,31 +1,31 @@
 @font-face {
   font-family: "Gilroy ExtraBold";
-  src: url("../fonts/gilroyextrabold.woff2") format('woff2'),
-       url("../fonts/gilroyextrabold.woff") format('woff');
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+       url("../fonts/gilroyextrabold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy light";
-  src: url("../fonts/gilroylight.woff2") format('woff2'),
-       url("../fonts/gilroylight.woff") format('woff');
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+       url("../fonts/gilroylight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/opensans.woff2") format('woff2'),
-       url("../fonts/opensans.woff") format('woff');
+  src: url("../fonts/opensans.woff2") format("woff2"),
+       url("../fonts/opensans.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans Light";
-  src: url("../fonts/opensanslight.woff2") format('woff2'),
-       url("../fonts/opensanslight.woff") format('woff');
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+       url("../fonts/opensanslight.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -77,13 +77,13 @@ body {
 
 .btn:hover {
   background: none;
-  background-color: #ffc600;
+  background-color: #f0c52e;
 }
 
 .btn:active {
   color: #ca9d00;
   background: none;
-  background-color: #ffc600;
+  background-color: #f0c52e;
 }
 
 h2 {
@@ -117,7 +117,7 @@ a {
   padding-bottom: 164px;
   color: #000;
   font-weight: 700;
-  background-color: #ffe27f;
+  background-color: #f7e296;
 }
 
 .main-header.inner-page {
@@ -146,7 +146,7 @@ a {
 }
 
 .inner-page .main-logo-link:hover {
-  color: #444;
+  color: #464646;
 }
 
 .inner-page .main-logo-link:active {
@@ -165,7 +165,7 @@ label[for="search"] {
   vertical-align: top;
   width: 16px;
   height: 16px;
-  background: #ffe27f  url("../img/sprite.png") no-repeat -5px -207px;
+  background: transparent  url("../img/sprite.png") no-repeat -5px -207px;
 }
 
 .search-form {
@@ -244,7 +244,7 @@ label[for="search"] {
 .logged-item {
   position: relative;
   display: block;
-  padding-left: 26px;
+  padding-left: 25px;
 }
 
 .login:hover,
@@ -275,7 +275,7 @@ label[for="search"] {
 .logged-item::after {
   position: absolute;
   top: 4px;
-  left: 1px;
+  left: -1px;
   content: "";
   display: block;
   width: 13px;
@@ -313,8 +313,8 @@ label[for="search"] {
 
 .cart::after {
   position: absolute;
-  top: 4px;
-  left: 2px;
+  top: 5px;
+  left: 3px;
   content: "";
   display: block;
   width: 12px;
@@ -392,7 +392,7 @@ label[for="search"] {
   width: 1160px;
   padding-left: 60px;
   padding-bottom: 22px;
-  background-color: #ffe393;
+  background-color: #f7e184;
   z-index: 5;
 }
 
@@ -585,7 +585,6 @@ label[for="search"] {
 .slider-text {
   width: 500px;
   margin-bottom: 41px;
-  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.01em;
 }
@@ -623,12 +622,12 @@ label[for="search"] {
 .characteristic td {
   display: inline-block;
   vertical-align: top;
-  width: 140px;
+  width: 138px;
   margin-bottom: 12px;
 }
 
 .characteristic td:first-child {
-  margin-right: 18px;
+  margin-right: 22px;
 }
 
 .slide-2 td:first-child {
@@ -658,8 +657,8 @@ label[for="search"] {
   position: relative;
   width: 160px;
   height: 160px;
-  margin-bottom: 34px;
-  background-color: #ffe27f;
+  margin-bottom: 35px;
+  background-color: #f7e296;
 }
 
 .promo-item:nth-child(1) .item-img::after {
@@ -751,7 +750,7 @@ label[for="search"] {
 }
 
 .promo-item:hover .item-img {
-  background-color: #ffc600;
+  background-color: #f0c52e;
 }
 
 .promo-item:active .item-img::after,
@@ -761,10 +760,10 @@ label[for="search"] {
 
 .promo-link {
   display: block;
-  width: 140px;
   color: #000;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
   font-size: 18px;
+  line-height: 21px;
 }
 
 .promo-item:nth-child(2) .promo-link {
@@ -774,9 +773,9 @@ label[for="search"] {
 .wrapper {
   width: 100%;
   min-height: 323px;
-  margin-bottom: 93px;
-  background: -webkit-linear-gradient(top, #fff 11%, #e6e6e6 11%);
-  background: linear-gradient(to bottom, #fff 11%, #e6e6e6 11%);
+  margin-bottom: 95px;
+  background: -webkit-linear-gradient(top, #fff 11%, #e5e5e5 11%);
+  background: linear-gradient(to bottom, #fff 11%, #e5e5e5 11%);
 }
 
 .services-btn-box {
@@ -804,7 +803,7 @@ label[for="search"] {
   display: inline-block;
   vertical-align: top;
   width: 160px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   padding: 9px 0;
   padding-left: 10px;
   color: #000;
@@ -823,13 +822,13 @@ label[for="search"] {
 
 .servises-btn:hover {
   background: none;
-  background-color: #ffc600;
+  background-color: #f0c52e;
 }
 
 .servises-btn-1:checked ~ .services-btn-box label[for="servises-btn-1"],
 .servises-btn-2:checked ~ .services-btn-box label[for="servises-btn-2"],
 .servises-btn-3:checked ~ .services-btn-box label[for="servises-btn-3"] {
-  color: #ffe27f;
+  color: #f7e184;
   background: none;
   background-color: #000;
 }
@@ -1026,7 +1025,7 @@ label[for="search"] {
 .about-us-title,
 .contacts-title {
   margin-left: -2px;
-  margin-bottom: 38px;
+  margin-bottom: 37px;
 }
 
 .delivery-company {
@@ -1100,7 +1099,7 @@ label[for="search"] {
   width: 100%;
   padding-top: 54px;
   padding-bottom: 64px;
-  background-color: #444444;
+  background-color: #464646;
 }
 
 .main-footer .container {
@@ -1111,7 +1110,7 @@ label[for="search"] {
 .footer-logo a {
   float: left;
   margin-left: -3px;
-  color: #ffe27f;
+  color: #f7e184;
   font-size: 48px;
   font-family: "Gilroy ExtraBold", "Arial", sans-serif;
   text-transform: uppercase;
@@ -1124,11 +1123,11 @@ label[for="search"] {
 }
 
 .footer-logo:hover a {
-  color: #ffc700;
+  color: #f0c52e;
 }
 
 .footer-logo:active a {
-  color: #ffc700;
+  color: #f0c52e;
   opacity: 0.3;
 }
 
@@ -1138,6 +1137,10 @@ label[for="search"] {
 
 .footer-upper-menu {
   margin-bottom: 22px;
+}
+
+.inner-page .footer-upper-menu {
+  margin-bottom: 26px;
 }
 
 .footer-upper-items {
@@ -1277,7 +1280,7 @@ label[for="search"] {
   content: "";
   width: 80px;
   height: 7px;
-  background-color: #ffe27f;
+  background-color: #f7e184;
 }
 
 .social {
@@ -1319,11 +1322,11 @@ label[for="search"] {
   width: 27px;
   height: 34px;
   background-color: #ffe27f;
-  background: #444 url("../img/sprite.png") no-repeat -5px -168px;
+  background: #444 url("../img/sprite.png") no-repeat -5px -167px;
 }
 
 .copyright:hover {
-  background: #444 url("../img/sprite.png") no-repeat -5px -129px;
+  background: #444 url("../img/sprite.png") no-repeat -5px -128px;
 }
 
 .copyright:active {
@@ -1387,13 +1390,13 @@ label[for="search"] {
 }
 
 .row-1 {
-  background-image: -webkit-linear-gradient(left, #dbdbdb 50%, #ebebeb 50%);
+  background-image: -webkit-linear-gradient(left, #dcdcdc 50%, #ebebeb 50%);
   background-image: linear-gradient(to right, #dbdbdb 50%, #ebebeb 50%);
 }
 
 .row-2 {
   background-image: -webkit-linear-gradient(left, #eee 50%, #fff 50%);
-  background-image: linear-gradient(to right, #eee 50%, #fff 50%);
+  background-image: linear-gradient(to right, #efefef 50%, #fff 50%);
 }
 
 .row-1 .container,
@@ -1530,7 +1533,7 @@ label[for="search"] {
   position: absolute;
   width: 110px;
   height: 2px;
-  background-color: #72ca00;
+  background-color: #91c92f;
   z-index: 3;
 }
 
@@ -1548,7 +1551,7 @@ label[for="search"] {
 }
 
 .toggle:active {
-  background-color: #63b000;
+  background-color: #7eae29;
   border: 3px solid white;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
 }
@@ -1621,7 +1624,7 @@ label[for="search"] {
   display: block;
   width: 23px;
   height: 23px;
-  background-color: #dcdcdc;
+  background-color: #dbdbdb;
 }
 
 .checkbox-indicator::after {
@@ -1647,7 +1650,7 @@ label[for="search"] {
   width: 23px;
   height: 23px;
   background-color: transparent;
-  border: 2px solid #c7c7c7;
+  border: 2px solid #c6c6c6;
   border-radius: 50%;
 }
 
@@ -1678,11 +1681,11 @@ label[for="search"] {
 }
 
 .checkbox:hover .checkbox-indicator::before {
-  background-color: #cfcfcf;
+  background-color: #cecece;
 }
 
 .checkbox:active .checkbox-indicator::before {
-  background-color: #c5c5c5;
+  background-color: #c4c4c4;
 }
 
 .radio:hover .radio-indicator::before {
@@ -1690,7 +1693,7 @@ label[for="search"] {
 }
 
 .radio:active .radio-indicator::before {
-  border: 2px solid #aeaeae;
+  border: 2px solid #adadad;
 }
 
 .filter-btn {
@@ -1701,7 +1704,7 @@ label[for="search"] {
 .result-content {
   float: right;
   width: 832px;
-  padding-left: 72px;
+  padding-left: 71px;
   background-color: #fff;
 }
 
@@ -1773,7 +1776,7 @@ label[for="search"] {
 }
 
 .catalog-item:nth-child(2n) .item-title {
-  width: 195px;
+  width: 232px;
 }
 
 .item-price {
@@ -1916,7 +1919,7 @@ label[for="search"] {
 }
 
 .error {
-  background-color: #ffb6b6;
+  background-color: #f6dada;
   opacity: 0.5;
 }
 
@@ -1927,6 +1930,7 @@ label[for="search"] {
 .name:hover,
 .mail:hover,
 .popup-area:hover {
+  background-color: #ebebeb;
   opacity: 0.8;
 }
 
@@ -1956,7 +1960,7 @@ label[for="search"] {
   right: -80px;
   width: 55px;
   height: 54px;
-  background-color: #ffe27f;
+  background-color: #f7e296;
   border: none;
   outline: none;
   border-radius: 50%;
@@ -1965,6 +1969,7 @@ label[for="search"] {
 
 .popup-close:hover,
 .popup-close:active {
+  background-color: #f0c52e;
   opacity: 1;
 }
 
@@ -2013,7 +2018,7 @@ label[for="search"] {
   right: 40px;
   width: 55px;
   height: 54px;
-  background-color: #ffe27f;
+  background-color: #f0c52e;
   border: none;
   outline: none;
   border-radius: 50%;
@@ -2022,6 +2027,7 @@ label[for="search"] {
 
 .map-close:hover,
 .map-close:active {
+  background-color: #f0c52e;
   opacity: 1;
 }
 
@@ -2062,4 +2068,131 @@ label[for="search"] {
 
 .modal-overlay.modal-overlay-show::after {
   display: block;
+}
+
+.animated {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+@-moz-document url-prefix() {
+  .header-upper-menu {
+    margin-bottom: 28px;
+  }
+
+  .user-logout {
+    margin-left: 15px;
+  }
+
+  .characteristic tr:first-child > td:first-child {
+    margin-right: 11px;
+  }
+
+  .characteristic tr:last-child > td:first-child {
+    margin-right: 17px;
+  }
+
+  .characteristic tr:first-child > td:nth-child(2) {
+    width: 129px;
+  }
+
+  .item-img {
+    margin-bottom: 33px;
+  }
+
+  .catalog-promo-menu {
+    margin-bottom: 150px;
+  }
+
+  .servises-btn  {
+    margin-bottom: 23px;}
+  .delivery-item {margin-bottom: 19px;
+  }
+
+  .delivery-item:last-child {
+    margin-bottom: 61px;
+  }
+
+  .content {
+    padding-bottom: 80px;
+  }
+
+  .footer-upper-menu {
+    margin-bottom: 21px;
+  }
+
+ .breadcrumbs {
+   margin-bottom: 48px;
+  }
+
+  .filter {
+    padding-top: 80px;
+  }
+
+  .range-filter {
+    margin-bottom: 47px;
+  }
+  .checkbox, .radio {
+    margin-bottom: 20px;
+  }
+
+  .checkbox-filter{
+    margin-bottom: 52px;
+  }
+
+  .radio-filter{
+    margin-bottom: 38px;
+  }
+
+  .radio-filter .filter-subtitle {
+    margin-bottom: 30px;
+  }
+
+  .result-items {
+    padding-top: 68px;
+  }
+
+  .paginator {
+    margin-bottom: 71px;
+  }
 }
